@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Medicine Reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>💊 Smart Medicine Reminder</h1>
+        <p>Medicine reminder system for elderly people</p>
+
+        <div class="form">
+
+            <input type="text" id="medicineName"
+                   placeholder="Enter medicine name">
+
+            <input type="time" id="medicineTime">
+
+            <button onclick="addMedicine()">
+                Add Medicine
+            </button>
+
+        </div>
+
+        <h2>Medicine Schedule</h2>
+
+        <div id="medicineList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
+}
+
+h1 {
+    color: #2e7d32;
+}
+
+.form {
+    margin: 25px 0;
+}
+
+input {
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+.medicine {
+    background-color: #f1f8e9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taken {
+    background-color: #c8e6c9;
+}
